@@ -6,7 +6,7 @@ Install:
 ```sh
 gcc -nostdlib -no-pie rat.s -o rat
 ```
-./rat <filename>
+./rat [filename]
 
 or
 
@@ -14,5 +14,5 @@ or
 as --64 -o rat.o rat.s
 ld -o rat rat.o
 ```
-./rat <filename>
+./rat [filename]
 
