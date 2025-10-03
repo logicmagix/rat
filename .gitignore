@@ -1,0 +1,21 @@
+# Build output
+rat
+
+# Object files (if you ever assemble separately)
+*.o
+
+# Editor swap/backup files
+*~
+*.swp
+*.swo
+
+# macOS Finder junk
+.DS_Store
+
+# Linux desktop junk
+*.desktop
+
+# VSCode / IDE metadata
+.vscode/
+.idea/
+
