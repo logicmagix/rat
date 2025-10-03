@@ -6,10 +6,11 @@ Install:
 ```sh
 gcc -nostdlib -no-pie rat.s -o rat
 cp rat $HOME/.local/bin
-
+```
 or
 
 ```sh
 as --64 -o rat.o rat.s
 ld -o rat rat.o
 cp rat $HOME/.local/bin
+```
